@@ -1,0 +1,43 @@
+.cls-1 {
+  fill: none;
+  stroke: url(#linear-gradient);
+  stroke-miterlimit: 10;
+  transition-duration: 0.3s;
+}
+
+  .clock {
+    position: relative;
+    width: 400px;
+    height: 400px;
+   /*  border-radius: 50%; */
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   text-align-last: center;
+   border: 2px solid black;
+  }
+    
+.sec {
+    position: absolute;
+    background-color: black;
+    bottom: 50%;
+    border-radius: 10px;
+    transform-origin: bottom;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    width: 150px;
+    height: 45%;
+    z-index: 3;
+    background-color: rgba(255, 0, 0, 0.145);
+    transform: rotate(210deg);
+  }
+    
+   .clock::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.429);
+    border-radius: 50%;
+    border: 1px solid gray;
+  } 

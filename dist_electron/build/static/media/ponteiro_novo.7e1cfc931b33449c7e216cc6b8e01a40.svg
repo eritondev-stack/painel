@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 385.35 9.65">
+  <defs>
+    <style>
+      .cls-1_p {
+        opacity: 0;
+      }
+
+      .cls-2_p {
+        fill: #1200ff;
+      }
+
+      .cls-3_p {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <g id="Layer_6" data-name="Layer 6">
+    <g id="Ponteiro">
+      <g class="cls-1_p">
+        <path class="cls-2_p" d="m385.35,0h-193.09v9.65h193.09V0Z"/>
+      </g>
+      <g>
+        <rect class="cls-2_p" x=".5" y=".5" width="191.26" height="8.65"/>
+        <path class="cls-3_p" d="m191.26,1v7.65H1V1h190.26m1-1H0v9.65h192.26V0h0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
